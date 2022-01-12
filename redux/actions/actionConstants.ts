@@ -1,0 +1,13 @@
+export const articleActionTypes = {
+    SELECT_ARTICLE: 'SELECT_ARTICLE',
+    SAVE_ARTICLES: 'SAVE_ARTICLES',
+    SAVE_PAGE: 'SAVE_PAGE',
+    GET_NEWS: 'GET_NEWS',
+    SET_TOTAL_ARTICLE_RESULT: 'SET_TOTAL_ARTICLE_RESULT'
+}
+
+export const loadingActionTypes = {
+    FIRST_LOAD: 'FIRST_LOAD',
+    STABLE: 'STABLE',
+    LOAD_MORE: 'LOAD_MORE',
+}
